@@ -1,3 +1,224 @@
+.container {
+  max-width: 1146px;
+  width: 95%;
+  margin: 0 auto;
+}
+
 h2 {
-  color: aqua;
+  color: #5863e3;
+  font-family: "Arimo";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 57px;
+}
+h5 {
+  color: #000;
+  font-family: "Arimo";
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.div1 {
+  width: 756px;
+  height: 298px;
+  margin-right: 20px;
+}
+textarea {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background: #f8f8f8;
+  padding: 20px;
+}
+::placeholder {
+  color: #99999a;
+  font-family: "Arimo";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.div2 {
+  width: 370px;
+  height: 236px;
+  display: flex;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 57px;
+}
+.text1 {
+  margin-bottom: 20px;
+  width: 370px;
+  height: 59px;
+  flex-shrink: 0;
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background: #f8f8f8;
+  padding: 20px;
+}
+.button {
+  width: 370px;
+  height: 59px;
+  flex-shrink: 0;
+  background: #5968f4;
+  color: #fbfbff;
+  font-family: "Arimo";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sect2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51px;
+}
+.icon {
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+  background-color: #5968f4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-envelope {
+  font-size: 35px;
+}
+.card1 {
+  text-align: center;
+}
+.card2 {
+  text-align: center;
+}
+.card3 {
+  text-align: center;
+}
+h1 {
+  color: #4e4d54;
+  font-family: "Arimo";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 16px;
+}
+p {
+  color: #99999a;
+  font-family: "Arimo";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.fa-phone {
+  font-size: 35px;
+}
+.fa-location-dot {
+  font-size: 35px;
+}
+.sect3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 53px;
+}
+footer {
+  background-color: #000;
+  width: 100%;
+  height: 372px;
+  margin-top: 39px;
+}
+h6 {
+  color: #fff;
+  font-family: "Arimo";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 23px;
+}
+.p1 {
+  color: #99999a;
+  font-family: "Arimo";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 295px;
+  height: 80px;
+  margin-bottom: 27px;
+}
+h3 {
+  color: #fff;
+  font-family: "Arimo";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 23px;
+}
+li {
+  color: #5863e3;
+  font-family: "Arimo";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 9px;
+}
+.li1 {
+  color: #fff;
+  font-family: "Arimo";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 19px;
+}
+.sect4 {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1111px) {
+  .sect3 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  textarea {
+    width: 50%;
+    height: 50%;
+  }
+  .div1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .div2 {
+    margin-bottom: 60px;
+  }
 }
